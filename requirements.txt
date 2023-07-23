@@ -1,0 +1,13 @@
+# Requirements for DeepNeuroBoun project
+
+deeplabcut
+opencv-python
+keyboard
+pandas
+numpy
+matplotlib
+seaborn
+Pillow
+shapely
+moviepy
+pathlib
