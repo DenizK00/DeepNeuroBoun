@@ -22,7 +22,7 @@ Understanding rodent behavior is crucial in the field of behavioral neuroscience
 
 - **User-friendly GUI**: The DeepNeuroBoun GUI offers an intuitive interface for researchers to interact with the analysis tools effortlessly.
 
-- **Automated Analysis**: The project implements state-of-the-art algorithms to automatically analyze rodent behavior data, reducing the need for manual intervention.
+- **Automated Analysis**: The project implements state-of-the-art **DeepLabCut** algorithms to automatically analyze rodent behavior data, reducing the need for manual intervention.
 
 - **Data Visualization**: Visualize and explore behavioral data through interactive graphs and plots, aiding in the understanding of experimental outcomes.
 
@@ -69,13 +69,15 @@ python GUI.py
 
 2. The GUI will launch, and you can start by selecting Generate New Analysis (for analysing the video) or Use Existing Analysis (using the data of an already processed video).
 
-3. If the generate new analysis option is selected, there will be another selection of Generic Dry Maze or Morris Water Maze.
+3a. If the generate new analysis option is selected, there will be another selection of Generic Dry Maze or Morris Water Maze.
 
-4. Continue by drawing an arbitrary line and type how long that line is, this way, the program will have the pixel distance to cm transition.
+3b. If the use existing analysis option is selected gui will continue to the 4th step
 
-5. Once the analysis is complete, explore the info and visualizions.
+4. Continue by drawing an arbitrary line and type how long that line is, this way, the program will have the pixel distance to cm transition, And also draw the maze by following the instructions in the GUI.
+
+5. Once the analysis is complete, explore the concluding info and visualizations.
   
-7.  Afterwrds, export the results in your desired format.
+6.  Afterwards, export the results in your desired format.
 
 ## Contributing
 
@@ -101,11 +103,6 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgments
 
-We would like to express our gratitude to Associate Professor Güneş Ünal for their valuable guidance and support throughout the development of this project. Additionally, we extend our thanks to all the contributors who have helped improve and refine DeepNeuroBoun.
-
----
-
 Thank you for showing interest in the DeepNeuroBoun project. We hope this software proves to be a valuable tool in your rodent behavior analysis endeavors. For any queries or feedback, feel free to contact the project maintainers. Happy analyzing!
-
 
 ![DeepNeuroBoun Logo](https://cogsci.boun.edu.tr/sites/cogsci.boun.edu.tr/files/styles/lab_200x300/public/banner_magenta_and_cyan_neurons.jpg?itok=0F5a7XMz&c=5948ea4bbdc9dadfd4c0ef6e30578da3)
