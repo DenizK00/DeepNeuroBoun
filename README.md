@@ -36,6 +36,8 @@ Follow these instructions to set up the DeepNeuroBoun project on your local mach
 
 ### Prerequisites
 
+- DeepLabCut, installation varies for different operating systems
+  for more information go to https://deeplabcut.github.io/DeepLabCut/docs/installation.html
 - Python 3.7 or higher installed on your system.
 - The required Python packages can be found in the `requirements.txt` file.
 
